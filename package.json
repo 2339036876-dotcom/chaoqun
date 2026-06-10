@@ -3,8 +3,6 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "build": "npm run build:user && npm run build:merchant",
-    "build:user": "cd user-web && npm install && npm run build",
-    "build:merchant": "cd merchant-web && npm install && npm run build"
+    "build": "cd user-web && npm install && npm run build && cd ../merchant-web && npm install && npm run build"
   }
 }
