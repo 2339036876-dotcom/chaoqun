@@ -3,19 +3,19 @@
   "outputDirectory": ".",
   "routes": [
     {
-      "src": "/user/(.*)",
+      "src": "/user/(.*\\.(js|css|png|jpg|jpeg|gif|svg|ico|woff|woff2|ttf|eot))$",
       "dest": "/user-web/dist/$1"
     },
     {
-      "src": "/user",
+      "src": "/user/(.*)",
       "dest": "/user-web/dist/index.html"
     },
     {
-      "src": "/merchant/(.*)",
+      "src": "/merchant/(.*\\.(js|css|png|jpg|jpeg|gif|svg|ico|woff|woff2|ttf|eot))$",
       "dest": "/merchant-web/dist/$1"
     },
     {
-      "src": "/merchant",
+      "src": "/merchant/(.*)",
       "dest": "/merchant-web/dist/index.html"
     },
     {
