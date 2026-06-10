@@ -1,22 +1,22 @@
 {
   "buildCommand": "npm run build",
   "outputDirectory": ".",
+  "cleanUrls": true,
+  "trailingSlash": false,
   "routes": [
     {
       "src": "/merchant/(.*)",
-      "dest": "/merchant-web/dist/$1"
-    },
-    {
-      "src": "/merchant",
-      "dest": "/merchant-web/dist/index.html"
+      "dest": "/merchant-web/dist/$1",
+      "headers": {
+        "Cache-Control": "no-cache"
+      }
     },
     {
       "src": "/(.*)",
-      "dest": "/user-web/dist/$1"
-    },
-    {
-      "src": "/",
-      "dest": "/user-web/dist/index.html"
+      "dest": "/user-web/dist/$1",
+      "headers": {
+        "Cache-Control": "no-cache"
+      }
     }
   ]
 }
