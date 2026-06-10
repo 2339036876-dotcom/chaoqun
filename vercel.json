@@ -1,0 +1,30 @@
+{
+  "builds": [
+    {
+      "src": "user-web/package.json",
+      "use": "@vercel/static-build",
+      "config": {
+        "buildCommand": "npm run build",
+        "distDir": "dist"
+      }
+    },
+    {
+      "src": "merchant-web/package.json",
+      "use": "@vercel/static-build",
+      "config": {
+        "buildCommand": "npm run build",
+        "distDir": "dist"
+      }
+    }
+  ],
+  "routes": [
+    {
+      "src": "/merchant/(.*)",
+      "dest": "/merchant-web/$1"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/user-web/$1"
+    }
+  ]
+}
