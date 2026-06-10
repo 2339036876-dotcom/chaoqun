@@ -1,0 +1,105 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="第 1 页" id="jAu8V9zFUXOSeIv_fV9q">
+    <mxGraphModel dx="1428" dy="975" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Pgh6sOxsCGkgBuzxEr_5-22" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Pgh6sOxsCGkgBuzxEr_5-25" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1409.9999999999995" y="284" as="sourcePoint" />
+            <mxPoint x="1410" y="194" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Pgh6sOxsCGkgBuzxEr_5-24" edge="1" parent="1" source="Pgh6sOxsCGkgBuzxEr_5-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Pgh6sOxsCGkgBuzxEr_5-27" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Pgh6sOxsCGkgBuzxEr_5-25" parent="1" style="whiteSpace=wrap;html=1;rounded=0;fontSize=18;" value="进入商品管理页面" vertex="1">
+          <mxGeometry height="60" width="120" x="1350" y="304" as="geometry" />
+        </mxCell>
+        <mxCell id="Pgh6sOxsCGkgBuzxEr_5-26" edge="1" parent="1" source="Pgh6sOxsCGkgBuzxEr_5-27" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Pgh6sOxsCGkgBuzxEr_5-29" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1430" y="494" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Pgh6sOxsCGkgBuzxEr_5-27" parent="1" style="whiteSpace=wrap;html=1;rounded=0;fontSize=18;" value="修改商品信息" vertex="1">
+          <mxGeometry height="60" width="120" x="1350" y="384" as="geometry" />
+        </mxCell>
+        <mxCell id="Pgh6sOxsCGkgBuzxEr_5-28" edge="1" parent="1" source="Pgh6sOxsCGkgBuzxEr_5-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;" target="Pgh6sOxsCGkgBuzxEr_5-31" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Pgh6sOxsCGkgBuzxEr_5-29" parent="1" style="whiteSpace=wrap;html=1;rounded=0;fontSize=18;" value="前端发送POST请求" vertex="1">
+          <mxGeometry height="60" width="120" x="1350" y="464" as="geometry" />
+        </mxCell>
+        <mxCell id="Pgh6sOxsCGkgBuzxEr_5-30" edge="1" parent="1" source="Pgh6sOxsCGkgBuzxEr_5-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;" target="Pgh6sOxsCGkgBuzxEr_5-32" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Pgh6sOxsCGkgBuzxEr_5-31" parent="1" style="whiteSpace=wrap;html=1;rounded=0;fontSize=18;" value="后端接收请求" vertex="1">
+          <mxGeometry height="60" width="120" x="1350" y="544" as="geometry" />
+        </mxCell>
+        <mxCell id="Pgh6sOxsCGkgBuzxEr_5-32" parent="1" style="rhombus;whiteSpace=wrap;html=1;rounded=0;fontSize=18;" value="表单验证是否完整？" vertex="1">
+          <mxGeometry height="180" width="185" x="1317.5" y="624" as="geometry" />
+        </mxCell>
+        <mxCell id="Pgh6sOxsCGkgBuzxEr_5-33" edge="1" parent="1" style="startArrow=none;endArrow=block;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=18;" value="否">
+          <mxGeometry relative="1" x="-0.075" y="-14" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1390" y="824" />
+              <mxPoint x="1370" y="824" />
+              <mxPoint x="1340" y="824" />
+            </Array>
+            <mxPoint x="1410" y="824" as="sourcePoint" />
+            <mxPoint x="1340" y="904" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Pgh6sOxsCGkgBuzxEr_5-34" parent="1" style="whiteSpace=wrap;html=1;rounded=0;fontSize=18;" value="返回错误，商品信息必填" vertex="1">
+          <mxGeometry height="60" width="120" x="1280" y="844" as="geometry" />
+        </mxCell>
+        <mxCell id="Pgh6sOxsCGkgBuzxEr_5-35" edge="1" parent="1" style="startArrow=none;endArrow=block;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=18;" value="是">
+          <mxGeometry relative="1" x="-0.0667" y="-20" as="geometry">
+            <mxPoint x="20" y="-20" as="offset" />
+            <Array as="points">
+              <mxPoint x="1480" y="824" />
+            </Array>
+            <mxPoint x="1410" y="824" as="sourcePoint" />
+            <mxPoint x="1480" y="904" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Pgh6sOxsCGkgBuzxEr_5-36" edge="1" parent="1" source="Pgh6sOxsCGkgBuzxEr_5-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;" target="Pgh6sOxsCGkgBuzxEr_5-39" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Pgh6sOxsCGkgBuzxEr_5-37" parent="1" style="whiteSpace=wrap;html=1;rounded=0;fontSize=18;" value="保存商品信息" vertex="1">
+          <mxGeometry height="60" width="120" x="1420" y="844" as="geometry" />
+        </mxCell>
+        <mxCell id="Pgh6sOxsCGkgBuzxEr_5-38" edge="1" parent="1" source="Pgh6sOxsCGkgBuzxEr_5-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1479.9999999999995" y="1004" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Pgh6sOxsCGkgBuzxEr_5-39" parent="1" style="whiteSpace=wrap;html=1;rounded=0;fontSize=18;" value="前端提示添加成功" vertex="1">
+          <mxGeometry height="60" width="120" x="1420" y="924" as="geometry" />
+        </mxCell>
+        <mxCell id="Pgh6sOxsCGkgBuzxEr_5-40" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=18;" target="Pgh6sOxsCGkgBuzxEr_5-32" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1410" y="824" as="sourcePoint" />
+            <mxPoint x="1510" y="764" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Pgh6sOxsCGkgBuzxEr_5-41" edge="1" parent="1" source="Pgh6sOxsCGkgBuzxEr_5-34" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=18;" target="UyF0X3HmFEoXOYM3GjXx-2" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="1340" y="1034" />
+            </Array>
+            <mxPoint x="1480" y="524" as="sourcePoint" />
+            <mxPoint x="1418.6800000000003" y="1053.04" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UyF0X3HmFEoXOYM3GjXx-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;开始&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="100" x="1360" y="224" as="geometry" />
+        </mxCell>
+        <mxCell id="UyF0X3HmFEoXOYM3GjXx-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;结束&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="100" x="1430" y="1004" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

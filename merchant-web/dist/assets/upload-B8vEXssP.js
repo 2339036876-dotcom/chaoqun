@@ -1,0 +1,1 @@
+import{a as s,b as r}from"./request-BHZySj8w.js";const d=async e=>{const t=new FormData;t.append("file",e);const o=localStorage.getItem("merchant-token"),{data:a}=await s.post("/api/upload",t,{headers:{"Content-Type":"multipart/form-data",...o?{token:o}:{}}});return a.code===0&&typeof a.data=="string"&&a.data.startsWith("/uploads/")&&(a.data=r(a.data)),a};export{d as u};
