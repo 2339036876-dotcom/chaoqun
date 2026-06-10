@@ -1,22 +1,26 @@
 {
-  "buildCommand": "npm run build",
+  "buildCommand": "cd user-web && npm install && npm run build && cd ../merchant-web && npm install && npm run build",
   "outputDirectory": ".",
-  "cleanUrls": true,
-  "trailingSlash": false,
   "routes": [
     {
+      "src": "/user/(.*)",
+      "dest": "/user-web/dist/$1"
+    },
+    {
+      "src": "/user",
+      "dest": "/user-web/dist/index.html"
+    },
+    {
       "src": "/merchant/(.*)",
-      "dest": "/merchant-web/dist/$1",
-      "headers": {
-        "Cache-Control": "no-cache"
-      }
+      "dest": "/merchant-web/dist/$1"
+    },
+    {
+      "src": "/merchant",
+      "dest": "/merchant-web/dist/index.html"
     },
     {
       "src": "/(.*)",
-      "dest": "/user-web/dist/$1",
-      "headers": {
-        "Cache-Control": "no-cache"
-      }
+      "dest": "/$1"
     }
   ]
 }

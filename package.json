@@ -1,8 +1,0 @@
-{
-  "name": "computer-code",
-  "version": "1.0.0",
-  "private": true,
-  "scripts": {
-    "build": "cd user-web && npm install && npm run build && cd ../merchant-web && npm install && npm run build"
-  }
-}
